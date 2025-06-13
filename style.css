@@ -4,14 +4,11 @@ body {
     background-color: #1F2039;
 }
 
-.header, .footer {
-    background-color: white;
-}
-a{    
+
+a {    
     color: #242424;
     text-decoration: none;
 }
-
 h1 {
     font-size: 3.5em;
     color: #A5B4FC;
@@ -24,16 +21,20 @@ p, li {
     font-size: 1.1em;
     color: #F9F8FF;
 }
-.a-propos {
-    border-right: 1px #8e86b5 solid;
-    border-bottom: 1px #8e86b5 solid;
-}
 em {
     color: #A5B4FC;
     font-style: normal;
+}
+
+.header, .footer {
+    background-color: white;
 }
 .link{
     color: white;
     background: linear-gradient(#8E86B5, #ACAEED);
     border-radius: 50px;
+}
+.a-propos {
+    border-right: 1px #8e86b5 solid;
+    border-bottom: 1px #8e86b5 solid;
 }
