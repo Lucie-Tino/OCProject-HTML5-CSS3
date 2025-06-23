@@ -26,10 +26,11 @@ em {
     font-style: normal;
 }
 
-.header, .footer {
+header, footer {
     background-color: white;
 }
-.link{
+
+.link {
     color: white;
     background: linear-gradient(#8E86B5, #ACAEED);
     border-radius: 50px;
