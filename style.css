@@ -17,6 +17,7 @@ h1 {
     font-size: 3.5em;
     color: #A5B4FC;
     font-family: "Montserrat", sans-serif;
+    font-weight: 400;
 }
 h2 {
     color: #F9F8FF;
@@ -69,4 +70,19 @@ a:hover {
 }
 .logo:hover {
     opacity: 0.5;
+}
+
+footer, nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.accueil-intro {
+    display: flex;
+    flex-direction: rox;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    margin: auto;
 }
