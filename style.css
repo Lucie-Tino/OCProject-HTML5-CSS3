@@ -32,16 +32,31 @@ em {
 
 header, footer {
     background-color: white;
+    padding: 20px 50px 20px 50px;
+}
+section {
+    padding: 80px;
 }
 
+.a-propos-main {
+    width: 50%;
+    margin: auto;
+}
 .link {
     color: white;
     background: linear-gradient(#8E86B5, #ACAEED);
     border-radius: 50px;
 }
-.a-propos {
+.carre-contenu {
     border-right: 1px #8e86b5 solid;
     border-bottom: 1px #8e86b5 solid;
+    padding: 50px;
+}
+.carre-contenu h2 {
+    margin-top: 30px;
+}
+.carre-contenu ul {
+    margin-top: 30px;
 }
 
 a:hover {
