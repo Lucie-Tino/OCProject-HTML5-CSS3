@@ -111,10 +111,21 @@ nav a {
 }
 .portfolio-gallery h2 {
     color: #242424;
-    margin-bottoù: 80px;
+    margin-bottom: 80px;
 }
-.grid-paysages img, .grid-voyages img {
+.grid-paysages img, .grid-portraits img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+.grid-paysages, .grid-portraits {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);;
+    gap: 15px;
+}
+.grid-paysages{
+    grid-template-rows: repeat(3, 300px);
+}
+.grid-portraits {
+    grid-template-rows: repeat(2, 300px);
 }
