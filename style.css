@@ -131,6 +131,6 @@ nav a {
 .grid-portraits {
     grid-template-rows: repeat(2, 300px);
 }
-.a-propos-main h1 { 
-    text-align: center;
+.carre-contenu + div { 
+   text-align: center;
 }
